@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main{
+int main(){
 
+    char nome, vacina, data;
+    int numLote, codigo;
+    double CPF;
     
+    
+
 
 }
