@@ -18,6 +18,6 @@ int main(){
     printf("Digite o numero do lote: ");
     scanf("%d", &numLote);
 
-    printf("%s, %s, %s, %d, %f",nome, vacina, data, numLote, cpf);
+    printf("nome:%s \n cpf: %f \n vacina: %s \n data: %s \n lote: %d",nome, cpf, vacina, data, numLote);
 
 }
