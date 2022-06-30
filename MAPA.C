@@ -19,6 +19,7 @@ int main(){
     scanf("%d", &numLote);
 
     printf("nome:%s \n cpf: %f \n vacina: %c \n data: %c \n lote: %d",nome, cpf, vacina, data, numLote);
+    
 
 return(0);
 }
