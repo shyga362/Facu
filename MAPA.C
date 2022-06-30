@@ -8,7 +8,7 @@ int main(){
     double cpf;
     
     printf("Digite seu nome: ");
-    scanf("%c", &nome);
+    scanf("%s", &nome);
     printf("Digite o seu CPF: ");
     scanf("%f", &cpf);
     printf("Digte qual a sua vacina: ");
@@ -18,7 +18,7 @@ int main(){
     printf("Digite o numero do lote: ");
     scanf("%d", &numLote);
 
-    printf("nome:%c \n cpf: %f \n vacina: %c \n data: %c \n lote: %d",nome, cpf, vacina, data, numLote);
+    printf("nome:%s \n cpf: %f \n vacina: %c \n data: %c \n lote: %d",nome, cpf, vacina, data, numLote);
 
 return(0);
 }
