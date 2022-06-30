@@ -8,16 +8,17 @@ int main(){
     double cpf;
     
     printf("Digite seu nome: ");
-    scanf("%s", &nome);
+    scanf("%c", &nome);
     printf("Digite o seu CPF: ");
     scanf("%f", &cpf);
     printf("Digte qual a sua vacina: ");
-    scanf("%s", &vacina);
+    scanf("%c", &vacina);
     printf("Digite a data da aplicacao: ");
-    scanf("%s", &data);
+    scanf("%c", &data);
     printf("Digite o numero do lote: ");
     scanf("%d", &numLote);
 
-    printf("nome:%s \n cpf: %f \n vacina: %s \n data: %s \n lote: %d",nome, cpf, vacina, data, numLote);
+    printf("nome:%c \n cpf: %f \n vacina: %c \n data: %c \n lote: %d",nome, cpf, vacina, data, numLote);
 
+return(0);
 }
