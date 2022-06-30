@@ -20,11 +20,5 @@ int main(){
 
     printf("nome:%s \n cpf: %f \n vacina: %c \n data: %c \n lote: %d",nome, cpf, vacina, data, numLote);
     
-
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 return(0);
 }
