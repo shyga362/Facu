@@ -37,7 +37,7 @@ int main(){
                 gets(ficha[i].nome);
                 printf("CPF o paciente: ");
                 gets(ficha[i].cpf);
-
+                
             }
 
     }
