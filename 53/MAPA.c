@@ -3,9 +3,9 @@
 
 int main(){
 
-    int codigo = 0, menu = 0;
+    int ID[50] = {0}, menu = 0;
     int i = 0;
-    char nome[50] = {}, pedido[50][50] = {}, endereco[250][50] = {}, pedido[50][5] = {};
+    char nome[50] = {}, pedido[50][50] = {}, endereco[250][50] = {}, pedido[50][5] = {}, valor[50][5];
     float valor = 0;
 
     printf("1 - Cadastro Pedido \n 2 - Consulta Pedido \n 3 - Emetir relatorio \n 4 - Sair \n");
@@ -18,25 +18,25 @@ int main(){
 
         for (i = 0; i < 50; i++)
         {
-            if(codigo[i] != 0)
+            if(ID[i] != 0)
             {
                 break;
             }
             else
             {
-                codigo[i] = i
+                ID[i] = i;
             }
             
         }
                              
     printf("Informe seu pedido: \n"); //cada caracter ocupa um slot na array
-    scanf("%s", &pedido[codigo][]);
+    scanf("%s", &pedido[ID][0]);
     printf("Informe seu nome: \n");
-    scanf("%s", &nome[codigo][]);
+    scanf("%s", &nome[ID][0]);
     printf("Infome seu endereço: \n");
-    scanf("%s", &endereco[codigo][]);
+    scanf("%s", &endereco[ID][0]);
     printf("Informe o valor do pedido: \n");
-    scanf("%s", &valor[codigo][]);
+    scanf("%s", &valor[ID][0]);
 
 
     break;
@@ -48,7 +48,7 @@ int main(){
 
     break;
     case 4:
-    break
+    break;
    
    default:
     break;
